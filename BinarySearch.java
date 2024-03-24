@@ -25,6 +25,10 @@ public class BinarySearch {
         int target = 11;
 
         int result = binarySearchRecursive(arr, target, 0, arr.length-1);
-        System.out.println("Target found at index: " + result);
+                if(result != -1) {
+            System.out.println("Target found at index: " + result);
+        }else{
+            System.out.println("Target not found");
+        }
     }
 }
