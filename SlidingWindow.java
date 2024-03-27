@@ -3,6 +3,9 @@ import java.util.Deque;
 import java.util.LinkedList;
 import java.util.List;
 
+/*The sliding window technique is a commonly used algorithmic approach for solving problems involving arrays or strings 
+* where you need to find a subset (window) of elements that satisfies certain conditions.
+*/
 public class SlidingWindow {
 
     public static List<Integer> findSubArray(int[] nums, int k) {
