@@ -1,3 +1,8 @@
+/*
+* Floyd's Cycle Detection Algorithm, also known as the "tortoise and hare" algorithm, 
+* is a popular algorithm used to detect cycles in a linked list or any cyclic sequence. 
+* It's particularly efficient in terms of both time and space complexity.
+*/
 class ListNode {
     int val;
     ListNode next;
