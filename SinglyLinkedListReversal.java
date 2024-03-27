@@ -1,3 +1,6 @@
+/* Reversing a singly linked list involves changing the direction of the pointers in each node so that the last node becomes the first node, 
+* the second-to-last node becomes the second node, and so on, until the first node becomes the last node.
+*/
 class ListNode {
     int val;
     ListNode next;
