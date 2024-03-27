@@ -1,3 +1,7 @@
+/*
+* Kadane's Algorithm is an efficient algorithm used to find the maximum subarray sum within a given array of integers. 
+* It is particularly useful for solving problems related to maximum subarray sum in linear time complexity.
+*/
 public class KadaneAlgorithm {
     public static int kadane(int[] arr) {
         int maxCurrent = arr[0];
