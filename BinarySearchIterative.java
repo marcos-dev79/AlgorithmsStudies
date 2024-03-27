@@ -1,3 +1,8 @@
+/*
+* Binary Search is a widely used searching algorithm that efficiently finds the position of a target value 
+* within a sorted array. 
+* It works by repeatedly dividing the search interval in half.
+*/  
 public class BinarySearchIterative {
     public static int binarySearchIterative(int[] arr, int target) {
         int left = 0;
